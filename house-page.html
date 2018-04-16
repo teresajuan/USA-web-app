@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>pro-congress-113-house</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/tgif.css">
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <div class="up">
+                    <img class="up1" src="open-goverment_3.png" alt="logo">
+                    <span class="up4"><img class="up3" src="sobre-de-email-abierto_1020-530.jpg" alt="simbolo de email"><a class="up2" href="mailto:info@tgif.org">info@tgif.org</a></span>
+                
+            </div>
+            <nav>
+                <div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home-page.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle bg-info text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Congress 113<span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="senate_data.html">Senate</a>
+                              <a class="dropdown-item active bg-info text-white" href="house-page.html">House</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Attendance<span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item bg-info text-white" href="senate-attendance-statistics-page.html">Senate</a>
+                              <a class="dropdown-item" href="house-attendance-statistics-page.html">House</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Party Loyalty<span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item bg-info text-white" href="senate-party-loyalty-statistics-page.html">Senate</a>
+                              <a class="dropdown-item" href="house-party-loyalty-statistics-page.html">House</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div>     
+                <h2>Congressmen</h2>
+                <p>The major power of the House is to pass federal legislation that affects the entire country, although its bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber). The House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no majority in the Electoral College.</p>
+                <p>Each U.S. state is represented in the House in proportion to its population as measured in the census, but every state is entitled to at least one representative. </p>
+            </div>
+            <form name="party-filter" id="filterForm" action="" method="">
+                <div class="row">
+                    <div class="col-md-6">
+                    <span> Filter by party: </span>
+                        <input type="checkbox" name="filterStatus" value="R"><label for="R">Republican</label>
+                        <input type="checkbox" name="filterStatus" value="D"><label for="D">Democrat</label>
+                        <input type="checkbox" name="filterStatus" value="I"><label for="I">Independent</label>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <span class="statefilter"> Filter by State: </span>
+                        <select id="filterByState" class="filter">   
+                            <option value="all">All</option>
+                            <option value="AL">Alabama (AL)</option>
+                            <option value="AK">Alaska (AK)</option>
+                            <option value="AZ">Arizona (AZ)</option>
+                            <option value="AR">Arkansas (AR)</option>
+                            <option value="CA">California (CA)</option>
+                            <option value="CO">Colorado (CO)</option>
+                            <option value="CT">Connecticut (CT)</option>
+                            <option value="DE">Delaware (DE)</option>
+                            <option value="DC">District of Columbia (DC)</option>
+                            <option value="FL">Florida (FL)</option>
+                            <option value="GA">Georgia (GA)</option>
+                            <option value="HI">Hawaii (HI)</option>
+                            <option value="ID">Idaho (ID)</option>
+                            <option value="IL">Illinois (IL)</option>
+                            <option value="IN">Indiana (IN)</option>
+                            <option value="IA">Iowa (IA)</option>
+                            <option value="KS">Kansas (KS)</option>
+                            <option value="KY">Kentucky (KY)</option>
+                            <option value="LA">Louisiana (LA)</option>
+                            <option value="ME">Maine (ME)</option>
+                            <option value="MD">Maryland (MD)</option>
+                            <option value="MA">Massachusetts (MA)</option>
+                            <option value="MI">Michigan (MI)</option>
+                            <option value="MN">Minnesota (MN)</option>
+                            <option value="MS">Mississippi (MS)</option>
+                            <option value="MO">Missouri (MO)</option>
+                            <option value="MT">Montana (MT)</option>
+                            <option value="NE">Nebraska (NE)</option>
+                            <option value="NV">Nevada (NV)</option>
+                            <option value="NH">New Hampshire (NH)</option>
+                            <option value="NJ">New Jersey (NJ)</option>
+                            <option value="NM">New Mexico (NM)</option>
+                            <option value="NY">New York (NY)</option>
+                            <option value="NC">North Carolina (NC)</option>
+                            <option value="ND">North Dakota (ND)</option>
+                            <option value="OH">Ohio (OH)</option>
+                            <option value="OK">Oklahoma (OK)</option>
+                            <option value="PA">Pennsylvania (PA)</option>
+                            <option value="RI">Rhode Island (RI)</option>
+                            <option value="SC">South Carolina (SC)</option>
+                            <option value="SD">South Dakota (SD)</option>
+                            <option value="TN">Tennessee (TN)</option>
+                            <option value="TX">Texas (TX)</option>
+                            <option value="UT">Utah (UT)</option>
+                            <option value="VT">Vermont (VT)</option>
+                            <option value="VA">Virginia (VA)</option>
+                            <option value="WA">Washington (WA)</option>
+                            <option value="WV">West Virginia (WV)</option>
+                            <option value="WI">Wisconsin (WI)</option>
+                            <option value="WY">Wyoming (WY)</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Full name</th>
+                        <th>Party</th>
+                        <th>State</th>
+                        <th>Years in Office</th>
+                        <th>Percentage of votes with party &#40; &#37; &#41;</th>
+                    </tr>
+                </thead>
+                <tbody id="senate-data">
+
+                </tbody>
+                </table>
+        </section>
+        <footer class="card-footer text-muted">
+             @2016 TGIF <span>All Rights Reserved</span>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js" integrity="sha256-XDU6Po3hKjdQXJHRrKrWlIF/E6y6BBgV5eiqZSYePpo=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+            
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!--
+        <script src="Script/pro-congress-113-house.js">
+        </script>
+-->
+        <script src="Script/misfunciones.js"></script>
+    </div>
+</body>
+</html>

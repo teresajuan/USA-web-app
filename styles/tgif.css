@@ -1,0 +1,139 @@
+/*
+* {
+    border: 2px solid black;
+}
+*/
+
+/*Estilo del cuerpo*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    background-color: lightgray;
+    font-family: "Indie Flower";
+    
+    
+}
+#container {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-style: outset;
+    border-width: 10px;
+    
+    
+}
+
+/*Estilo header*/
+
+
+
+
+
+
+
+
+/* Estilo logo + mail*/
+
+.up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    
+}
+
+.up2 {
+   
+    color: blue;
+    font-size: 25px;
+    text-decoration: underline; 
+}
+
+
+.up3 {
+    width: 50px;
+    height: 50px;   
+}
+.up4 {
+    margin-left: 340px; 
+    margin-top: 30px;
+}
+
+
+/*Estilo del nav*/
+
+nav {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nav-link, .dropdown-item {
+    color: gray;
+}
+
+
+/* Estilo de la section*/
+
+section {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 25px;
+    
+}
+
+/*Estilo h2*/
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/*Estilo de la tabla*/
+
+table {
+    margin-top: 40px; 
+}
+
+th, td {
+    text-align: center;
+}
+
+/* Estilo footer*/
+
+footer {
+    font-style: italic;
+    text-align: center;
+    
+}
+
+/* Estilo título Read More*/
+
+#accordion {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Estilo imagen lupa*/
+
+.about {
+    width: 350px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 25px;
+    border-radius: 100px;
+    transform: rotateZ(15deg);  
+}
+
+
+
+
+
+
+

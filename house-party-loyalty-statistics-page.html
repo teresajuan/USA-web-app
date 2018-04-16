@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>pro-congress-113-house</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/tgif.css">
+    </head>
+    
+    <body>
+        <div id="container">
+             <header>
+            <div class="up">
+                    <img class="up1" src="open-goverment_3.png" alt="logo">
+                    <span class="up4"><img class="up3" src="sobre-de-email-abierto_1020-530.jpg" alt="simbolo de email"><a class="up2" href="mailto:info@tgif.org">info@tgif.org</a></span>
+                
+            </div>
+            <nav>
+                <div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home-page.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Congress 113<span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item bg-info text-white" href="senate_data.html">Senate</a>
+                              <a class="dropdown-item" href="house-page.html">House</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Attendance<span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item bg-info text-white" href="senate-attendance-statistics-page.html">Senate</a>
+                              <a class="dropdown-item" href="house-attendance-statistics-page.html">House</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle bg-info text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Party Loyalty<span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="senate-party-loyalty-statistics-page.html">Senate</a>
+                              <a class="dropdown-item active bg-info text-white" href="house-party-loyalty-statistics-page.html">House</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>Party Loyalty</h2>
+                        <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda. </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4">
+                        <h2>Senate at a glance</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Party</th>
+                                    <th>Number of Reps</th>
+                                    <th>% Voted with Prty</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listParty">
+                                <tr>
+                                    <td>Republican</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>Democrat</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>Independent</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2>Least Loyal (Bottom 10% of Party)</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Number Party Votes</th>
+                                    <th>% Party Votes</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableMost">
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5">
+                        <h2>Most Loyal (Top 10% of Party)</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Number Party Votes</th>
+                                    <th>% Party Votes</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableLeast">
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="card-footer text-muted">
+                     @2016 TGIF <span>All Rights Reserved</span>
+        </footer>
+    </div>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js" integrity="sha256-XDU6Po3hKjdQXJHRrKrWlIF/E6y6BBgV5eiqZSYePpo=" crossorigin="anonymous"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!--
+    <script src="Script/pro-congress-113-senate.js">
+    </script>
+-->
+    <script src="Script/statistics.js"></script>
+    
+</body>
+</html>
